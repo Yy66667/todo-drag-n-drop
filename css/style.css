@@ -92,11 +92,12 @@ h1 {
 
 .addfeatureAfter{
     position:fixed;
-    background-color: rgba(0, 0, 0, 0.823) ;
+    background-color: rgba(190, 190, 190, 0) ;
     display: flex;
     align-items: right;
     justify-content: center;
-    padding: 20px;
+    padding: 10px;
+    border:1px #000000 solid;
     border-radius:12px ;
     flex-direction: column;
     row-gap: 5px;
@@ -106,11 +107,11 @@ h1 {
 }
 
 .addfeatureAfter input, .addfeatureAfter select, .addfeatureAfter button{
-    background-color: #ccba4af0;
+    background-color: #ffffffd8;
     border-radius: 7px;
     color: #000000;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border: 2px black solid;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 1px rgb(61, 61, 61) solid;
     font-size: 20px;
     padding: 4px;
 }
