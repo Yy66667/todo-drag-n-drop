@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript - Drag and Drop Demo</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>TASK Manager</h1>
+        <div class="drop-targets">
+            <div class="category">
+                <div class="cat-title">todos</div>
+                <div class="box todos">
+                 </div>       
+                 <div class="addtodobutton"><button onclick=addtodo('todos')>+</button></div>          
+             </div>
+
+
+
+
+             <div class="category">
+                <div class="cat-title">in progress</div>
+                <div class="box progress">
+                 </div>
+                 
+        <div class="addtodobutton"><button onclick=addtodo('progress')>+</button></div>
+             </div>
+             <div class="category">
+                <div class="cat-title">under review</div>
+                <div class="box review">
+                 </div>
+                 <div class="addtodobutton">
+        <button onclick=addtodo('review')>+</button></div>
+             </div>
+
+             <div class="category">
+                <div class="cat-title">finished</div>
+                <div class="box finished">
+                 </div>
+        
+                 <div class="addtodobutton"><button onclick=addtodo('finished')>+</button></div>
+                       </div>
+
+            
+        </div>
+
+
+
+
+    <div class="addfeature">
+        <input class="input-title" placeholder="title">
+        <input class="input-description" placeholder="description">
+        <select class="select">
+            <option>Low</option>
+            <option>Medium</option>
+            <option>Urgent</option>
+        </select>
+        <button class="add">+</button>
+        <div class="time-passed"></div>
+    </div>
+
+    <div class="info">
+    <div>
+        *you can drag and drop from one category to another
+    </div>
+    <div>
+        *to delete you can simply move the todo into empty space
+    </div>
+    </div>
+    </div>
+
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
